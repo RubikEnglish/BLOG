@@ -7,18 +7,18 @@ function check(){
 	var correct = 0;
 
 
-	if (question1 == "Aseguramiento") {
+	if (question1 == "corre") {
 		correct++;
 }
-	if (question2 == "Segundo") {
+	if (question2 == "He") {
 		correct++;
 }	
-	if (question3 == "No") {
+	if (question3 == "Fast") {
 		correct++;
 	}
 	
 	var pictures = ["MIKE.png", "VIRIDIANA.png", "YUN.png"];
-	var messages = ["Buen trabajo!", "Simplemente bien", "Tu necesitas mejorar"];
+	var messages = ["Entendiste la lección!", "Te recomiendo poner más atención al ver las lecciones", "Necesitas ver el video nuevamente"];
 	var score;
 
 	if (correct == 0) {
